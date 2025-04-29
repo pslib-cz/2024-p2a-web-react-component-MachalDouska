@@ -1,39 +1,7 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import ViewBox  from './components/PercentView'
 
-  // type Address = {
-  //   city: string,
-  //   street: string,
-  //   zip: number
-  // }
-
-  // type MyType = {
-  //   name: string,
-  //   age: number,
-  //   isActive: boolean,
-  //   hobbies: Array<string>,
-  //   address: Address,
-  // }
-
-  //   const myPerson: MyType = {
-  //     name: 'Jan',
-  //     age: 30,
-  //     isActive: true,
-  //     hobbies: ['sport', 'music'],
-  //     address: {
-  //       city: 'Prague',
-  //       street: 'Main Street',
-  //       zip: 12345
-  //     }
-  //   }
-
-  //   const myPerson2: MyType = {}
-  //   myPerson2.name = 'Jan'
-  //   myPerson2.age = 30
-  //   myPerson2.isActive = true
 
   type ArrowType = (x: number) => number 
 
@@ -49,8 +17,6 @@ import ViewBox  from './components/PercentView'
       x + 1
     )
   }
-
-
 
   const App = () => {
     let cislo: number = 20
