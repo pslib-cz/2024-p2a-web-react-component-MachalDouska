@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build --base=/2024-p2a-web-react-component-MachalDouska/ && gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
